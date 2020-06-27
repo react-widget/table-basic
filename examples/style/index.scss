@@ -1,0 +1,60 @@
+.container {
+	display: flex;
+	height: 100%;
+}
+
+.slider {
+	width: 200px;
+	border-right: 1px solid #f2f2fe;
+	> div {
+		padding: 10px;
+		border-bottom: 1px solid #f2f2fe;
+		cursor: pointer;
+	}
+
+	.active {
+		background: #3399ff;
+		color: #fff;
+	}
+}
+
+.content {
+	overflow: auto;
+	padding: 10px;
+
+	flex: 1;
+}
+
+.table-demo2 {
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+}
+
+.table-demo2 .thead {
+	overflow: hidden;
+	flex: none;
+	background-color: #fafafa;
+}
+
+.thead-inner {
+	width: 100%;
+}
+
+.table-demo2 .tbody {
+	flex: 1;
+	overflow: auto;
+}
+
+.fixed-column {
+	position: relative;
+	overflow: auto;
+}
+
+.fixed-right {
+	position: absolute;
+	right: 0;
+	top: 0;
+	background: #fff;
+	width: 180px;
+}

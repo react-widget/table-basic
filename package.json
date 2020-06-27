@@ -1,6 +1,6 @@
 {
 	"name": "react-widget-table-basic",
-	"version": "0.5.0",
+	"version": "0.5.1",
 	"description": "table-basic",
 	"main": "cjs/index.js",
 	"module": "esm/index.js",
@@ -41,6 +41,7 @@
 		"classnames": "^2.2.6",
 		"lodash": "^4.17.15",
 		"table-multiple-header": "^2.0.3",
+		"xtree-store": "^2.0.3",
 		"warning": "^4.0.3"
 	},
 	"author": "nobo.zhou@foxmail.com",
@@ -65,8 +66,7 @@
 		"react-dom": "^16.13.1",
 		"rimraf": "^3.0.2",
 		"transform-es": "^5.0.4",
-		"typescript": "^3.8.3",
-		"xtree-store": "^2.0.3"
+		"typescript": "^3.8.3"
 	},
 	"browserslist": [
 		">=0.25%",
